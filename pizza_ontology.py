@@ -1,6 +1,7 @@
 from owlready2 import get_ontology, onto_path, sync_reasoner
 
-onto = get_ontology("http://www.lesfleursdunormal.fr/static/_downloads/pizza_onto.owl")
+#onto = get_ontology("http://www.lesfleursdunormal.fr/static/_downloads/pizza_onto.owl")
+onto = get_ontology('pizza_onto.owl')
 onto.load()
 
 
